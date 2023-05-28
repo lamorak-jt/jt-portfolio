@@ -1,0 +1,209 @@
+<!-- 
+Here are some user stories that you should achieve for this project.
+I can access all the portfolio webpage's content just by scrolling.
+I can click different buttons that will take me to the portfolio creator's different social media pages.
+I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use https://picsum.photos/ as stylish placeholders.)
+I navigate to different sections of the webpage by clicking buttons in the navigation.
+A link to https://www.altcademy.com on your website, makes most sense to put it at the footer. The text can be something like "Part of Altcademy's Fullstack Program".
+ -->
+ <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/e067495424.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <title>AI for international development</title>
+    <link rel="icon" type="image/x-icon" href="./images/seefar-icon.png">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <!-- Nav for large screens and above-->
+    <nav class="navbar navbar-expand-lg w-100">
+      <div class="navbar-brand">
+        <a class="navbar-brand header-logo py-0 pr-0 pl-2" href="#"></a>
+        <a class="navbar-brand py-0 pr-0 pl-2" href="#">Tech < > Aid</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-bars fa-1x"></i>
+      </button>
+
+      <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto float-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="#portfolio">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#donors">Donors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+     <!-- Intro feature -->
+     <div class="container">
+      <div class="row feature-row">        
+        <div class="feature-img-frame">
+          <img class="feature-img" src="./images/tech-aid.jpg">
+        </div>
+        <div class="feature-text">          
+          <div class="feature-title">
+            <h3>
+              <a class="feature-title-link" href="#">Bringing the frontiers of tech to the frontiers of the aid sector</a>
+            </h3>
+          </div>
+          <a class="btn btn-gradient" href="#">Read more</a>
+        </div>          
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="container portfolio-background">
+      <div class="row portfolio-row">        
+        <h2 class="portfolio-title w-100">Projects</h2>
+        <div class="portfolio-post">
+          <div class="portfolio-post-title">
+            <a class="portfolio-post-link" href="#">
+              Predicting risks to keep migrants safe
+            </a>
+          </div>
+          <img class="portfolio-img" src="./images/safermigration.jpg">          
+          <div class="portfolio-text">
+            A machine learning model that helps people considering risky migration to understand their highest risks and take precautions.
+          </div>
+        </div>      
+        <div class="portfolio-post">
+          <div class="portfolio-post-title">
+            <a class="portfolio-post-link" href="#">
+              Serving teachers in tough environments
+            </a>
+          </div>
+          <img class="portfolio-img" src="./images/teachsmart.png">
+          <div class="portfolio-text">
+            An app for teachers working with low resources in places like Nigeria and Mali.
+          </div>          
+        </div>
+        
+        <div class="portfolio-post">
+          <div class="portfolio-post-title">
+            <a class="portfolio-post-link" href="#">
+              Improving counselling services
+            </a>
+          </div>
+          <img class="portfolio-img" src="./images/counselling.png">
+          <div class="portfolio-text">
+            An AI assistant for counsellors working with vulnerable people across Asia and the Middle East.
+          </div>          
+        </div>
+        <div class="portfolio-post">
+          <div class="portfolio-post-title">
+            <a class="portfolio-post-link" href="#">
+              Refugee access to rights
+            </a>
+          </div>
+          <img class="portfolio-img" src="./images/jordan.png">
+          <div class="portfolio-text">
+            Digitalising Jordanian government identity services to refugees and Jordanians, expanding access and increasing efficiency.
+          </div>          
+        </div>
+      </div>
+    </div>
+
+    <!-- Supporters -->
+    <div id="donors" class="container">
+      <div class="row supporters-grid">
+        <h2 class="supporters-title">Donors</h2>        
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/unodc.png">
+        </div>
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/macquarie.png">
+        </div>
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/at-bmi.png">
+        </div>
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/denmark.png">
+        </div>
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/uk-gov.png">
+        </div>
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/dfat.png">
+        </div>
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/ec.png">
+        </div>
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/norad.png">
+        </div>
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/world-bank.png">
+        </div>
+        <div class="supporters-tile">
+          <img class="supporter-img" src="./images/gfems.png">
+        </div>        
+      </div>
+    </div>
+
+    <!-- About me -->
+    <div id="about" class="container about-outer">            
+      <h2 class="me-title">About me</h2>
+      <div class="me-text">
+        Remote working for 13 years, I'm lucky to have the support of <a href="https://seefar.org" target="_blank">Seefar</a> to test how we can use technology to improve the aid industry. I work from the Isle of Man, Vienna and wherever my projects take me.
+      </div>
+      <div class="me-img-frame text-center">
+        <img class="me-img img-fluid" src="./images/office.jpg">
+      </div>
+    
+    </div>
+
+    <footer>
+      <footer class="my-footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-section">
+              <h4 class="footer-section-title">Course reference</h4>
+              <ul class="footer-nav">
+                <li class="footer-item">
+                  <a class="footer-link" href="https://www.altcademy.com" target="_blank">Altcademy's Fullstack Program</a>
+                </li>
+              </ul>              
+            </div>
+            <div class="footer-section">
+              <h4 class="footer-section-title">Connecting</h4>
+              <ul class="footer-nav">
+                <li class="footer-item">
+                <a class="social-icon-link" href="https://twitter.com/seefar_org" target="_blank"> Following Seefar:
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                </li>
+                <li class="footer-item">
+                  <a class="social-icon-link" href="https://www.linkedin.com/in/jacob-townsend-51b4ba55/" target="_blank">Finding me: 
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              </ul>
+            </div>
+            
+          </div>             
+        </div>
+      </footer>      
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>
