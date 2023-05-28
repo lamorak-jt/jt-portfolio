@@ -444,6 +444,7 @@ a:hover {
 }
 
 .social-icon-link {
-  font-size: 16px;
+  font-size: 14px;
   color: #222;
+  line-height: 1.27;
 }
